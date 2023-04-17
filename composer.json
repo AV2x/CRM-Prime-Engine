@@ -54,13 +54,15 @@
             "cp sail vendor/laravel/sail/bin",
             "./vendor/bin/sail up -d",
             "./vendor/bin/sail artisan storage:link",
-            "./vendor/bin/sail artisan migrate --seed",
+            "./vendor/bin/sail artisan migrate:fresh --seed",
+            "npm install",
             "npm run build"
         ],
         "start -l": [
             "composer update",
             "php artisan storage:link",
-            "php artisan migrate --seed",
+            "php artisan migrate:fresh --seed",
+            "npm install",
             "npm run build"
         ]
     },

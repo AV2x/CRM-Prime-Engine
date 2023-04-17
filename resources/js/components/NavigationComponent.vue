@@ -79,6 +79,7 @@
                     <v-list-item
                         active-color="primary"
                         :to="'/site'"
+                        disabled
                     >
                         <template v-slot:prepend>
                             <v-icon :icon="'mdi-application-braces-outline'"></v-icon>
