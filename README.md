@@ -1,5 +1,5 @@
 <h3>CRM Prime Engine</h3>
-<p>CRM/CMS для интернет магазинов</p>
+<p>CRM/CMS для интернет магазинов. Посмотреть можно по ссылке: <a href="https://primeengine.ru/">https://primeengine.ru/</a></p>
 <h3>Установка</h3>
 <p>Скачать файлы из репозитория:</p>
 
