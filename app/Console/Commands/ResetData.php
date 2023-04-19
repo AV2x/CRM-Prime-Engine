@@ -30,5 +30,7 @@ class ResetData extends Command
         $file = new Filesystem;
         $file->cleanDirectory('storage/app/public');
         Artisan::call('migrate:fresh --seed');
+        $output = '';
+        exec('chmod -R 777 /var/www/crm/storage', $output);
     }
 }
